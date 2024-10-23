@@ -1,0 +1,108 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background: linear-gradient(90deg, #8a2be2, #4169e1);
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically */
+  text-align: center;
+  height: 100%;
+}
+
+.content {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.hero-Image {
+  width: 190px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Added slight transparency to shadow */
+}
+
+h3 {
+  padding: 20px 10px;
+  margin-bottom: 10px;
+}
+.hero-heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.hero-paragraph {
+  font-size: 18px;
+  color: #333;
+  padding: 20px;
+  margin-bottom: -15px;
+}
+
+.emailform {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.keycontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  background-color: #f0f0f0;
+  padding: 20px; /* Reduced padding */
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 80%; /* Adjusted width */
+  margin: 20px auto; /* Center the box horizontally */
+}
+
+.email-label {
+  margin-bottom: 10px; /* Adjust margin for better spacing */
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  color: #0f100f;
+}
+
+input {
+  width: 100%; /* Ensure input takes the full width of its container */
+  padding: 10px; /* Add padding for input */
+  border: 2px solid #ccc; /* Set a default border */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+input:focus {
+  border-color: #f0a418; /* Change border color when focused */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #143415;
+}
+
+.closing {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #0f100f;
+}
